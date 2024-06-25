@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using ConsoleWebAPI.Repository;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ConsoleWebAPI.Controllers
@@ -17,6 +18,13 @@ namespace ConsoleWebAPI.Controllers
         public string GetbyId(string Id) 
         {
             return "hello string " + Id;
+        }
+
+        //Resolve the Service dependency directly in the Action Method
+        [HttpGet("product")]
+        public IActionResult GetName([FromServices] IProductRepository _productRepository1) {
+            string name = _productRepository1.GetProductName();
+            return Ok(name);
         }
     }
 }

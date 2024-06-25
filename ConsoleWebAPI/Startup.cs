@@ -1,5 +1,8 @@
 ﻿
 using ConsoleWebAPI.Middlewares;
+using ConsoleWebAPI.Repository;
+using Microsoft.Extensions.DependencyInjection.Extensions;
+using System.ComponentModel;
 
 namespace ConsoleWebAPI
 {
@@ -9,6 +12,18 @@ namespace ConsoleWebAPI
         { 
             services.AddControllers();
             services.AddTransient<CustomMiddleware>(); //injecting the custom middleware as service
+
+            //Register singleton service in web api, they are shared
+            //services.AddSingleton<IProductRepository, ProductRepository>();
+
+            //New object for every new http request, they are shared also
+            //services.AddScoped<IProductRepository, ProductRepository>();
+
+            //New object everytime is requested, and they are not shared
+            services.AddTransient<IProductRepository, ProductRepository>();
+
+            //services.TryAddSingleton<IProductRepository, ProductRepository>();
+
         }
         public async void Configure(IApplicationBuilder app, IWebHostEnvironment env) 
         {
