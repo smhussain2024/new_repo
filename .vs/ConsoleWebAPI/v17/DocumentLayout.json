@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|c:\\users\\shabbas.25704\\source\\repos\\consolewebapi\\consolewebapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|solutionrelative:consolewebapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|c:\\users\\shabbas.25704\\source\\repos\\consolewebapi\\consolewebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|solutionrelative:consolewebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\ConsoleWebAPI\\Startup.cs",
+              "RelativeDocumentMoniker": "ConsoleWebAPI\\Startup.cs",
+              "ToolTip": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\ConsoleWebAPI\\Startup.cs",
+              "RelativeToolTip": "ConsoleWebAPI\\Startup.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:24:46.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\ConsoleWebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleWebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\ConsoleWebAPI\\Program.cs",
+              "RelativeToolTip": "ConsoleWebAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:24:44.132Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
