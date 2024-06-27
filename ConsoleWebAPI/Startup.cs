@@ -1,6 +1,8 @@
 ﻿
+using ConsoleWebAPI.Data;
 using ConsoleWebAPI.Middlewares;
 using ConsoleWebAPI.Repository;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using System.ComponentModel;
 
@@ -8,8 +10,18 @@ namespace ConsoleWebAPI
 {
     public class Startup
     {
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
+
+        public IConfiguration Configuration { get; }
+
         public void ConfigureServices(IServiceCollection services) 
-        { 
+        {
+            services.AddDbContext<BookStoreContext>(options => 
+                options.UseSqlServer(Configuration.GetConnectionString("BookStoreDB")));
+            
             services.AddControllers();
             services.AddTransient<CustomMiddleware>(); //injecting the custom middleware as service
 
@@ -21,6 +33,7 @@ namespace ConsoleWebAPI
 
             //New object everytime is requested, and they are not shared
             services.AddTransient<IProductRepository, ProductRepository>();
+            services.AddTransient<IBookRepository, BookRepository>();
 
             //services.TryAddSingleton<IProductRepository, ProductRepository>();
 

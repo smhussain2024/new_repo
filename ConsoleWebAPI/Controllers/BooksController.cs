@@ -8,7 +8,14 @@ namespace ConsoleWebAPI.Controllers
     [ApiController]
     public class BooksController : ControllerBase
     {
-        [Route("{Id:int:min(10):max(100)}")]
+        private readonly IBookRepository _bookRepository;
+
+        public BooksController(IBookRepository bookRepository)
+        {
+            this._bookRepository = bookRepository;
+        }
+
+        /*[Route("{Id:int:min(10):max(100)}")]
         public string GetbyId(int Id)
         {
             return "hello int " + Id;
@@ -25,6 +32,13 @@ namespace ConsoleWebAPI.Controllers
         public IActionResult GetName([FromServices] IProductRepository _productRepository1) {
             string name = _productRepository1.GetProductName();
             return Ok(name);
+        }*/
+
+        [HttpGet("")]
+        public async Task<IActionResult> GetAllBooks()
+        {
+            var result = await this._bookRepository.GetAllBooksAsync();
+            return Ok(result);
         }
     }
 }
