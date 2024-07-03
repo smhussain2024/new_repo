@@ -22,7 +22,7 @@ namespace ConsoleWebAPI
             services.AddDbContext<BookStoreContext>(options => 
                 options.UseSqlServer(Configuration.GetConnectionString("BookStoreDB")));
             
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson();
             services.AddTransient<CustomMiddleware>(); //injecting the custom middleware as service
 
             //Register singleton service in web api, they are shared

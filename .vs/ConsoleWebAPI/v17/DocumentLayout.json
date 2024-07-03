@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|c:\\users\\shabbas.25704\\source\\repos\\consolewebapi\\consolewebapi\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|solutionrelative:consolewebapi\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|c:\\users\\shabbas.25704\\source\\repos\\consolewebapi\\consolewebapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|solutionrelative:consolewebapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|c:\\users\\shabbas.25704\\source\\repos\\consolewebapi\\consolewebapi\\models\\booksmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|solutionrelative:consolewebapi\\models\\booksmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|c:\\users\\shabbas.25704\\source\\repos\\consolewebapi\\consolewebapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|solutionrelative:consolewebapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|c:\\users\\shabbas.25704\\source\\repos\\consolewebapi\\consolewebapi\\repository\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|solutionrelative:consolewebapi\\repository\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|c:\\users\\shabbas.25704\\source\\repos\\consolewebapi\\consolewebapi\\data\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|solutionrelative:consolewebapi\\data\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|c:\\users\\shabbas.25704\\source\\repos\\consolewebapi\\consolewebapi\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|solutionrelative:consolewebapi\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +22,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BooksController.cs",
-              "DocumentMoniker": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\ConsoleWebAPI\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "ConsoleWebAPI\\Controllers\\BooksController.cs",
-              "ToolTip": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\ConsoleWebAPI\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "ConsoleWebAPI\\Controllers\\BooksController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwB4AAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T15:03:06.576Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IBookRepository.cs",
-              "DocumentMoniker": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\ConsoleWebAPI\\Repository\\IBookRepository.cs",
-              "RelativeDocumentMoniker": "ConsoleWebAPI\\Repository\\IBookRepository.cs",
-              "ToolTip": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\ConsoleWebAPI\\Repository\\IBookRepository.cs",
-              "RelativeToolTip": "ConsoleWebAPI\\Repository\\IBookRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T14:28:47.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Books.cs",
-              "DocumentMoniker": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\ConsoleWebAPI\\Data\\Books.cs",
-              "RelativeDocumentMoniker": "ConsoleWebAPI\\Data\\Books.cs",
-              "ToolTip": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\ConsoleWebAPI\\Data\\Books.cs",
-              "RelativeToolTip": "ConsoleWebAPI\\Data\\Books.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T14:23:52.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\ConsoleWebAPI\\Startup.cs",
-              "RelativeDocumentMoniker": "ConsoleWebAPI\\Startup.cs",
-              "ToolTip": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\ConsoleWebAPI\\Startup.cs",
-              "RelativeToolTip": "ConsoleWebAPI\\Startup.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwCIAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T14:20:29.104Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BooksModel.cs",
+              "DocumentMoniker": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\ConsoleWebAPI\\Models\\BooksModel.cs",
+              "RelativeDocumentMoniker": "ConsoleWebAPI\\Models\\BooksModel.cs",
+              "ToolTip": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\ConsoleWebAPI\\Models\\BooksModel.cs",
+              "RelativeToolTip": "ConsoleWebAPI\\Models\\BooksModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T07:38:36.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "BookRepository.cs",
               "DocumentMoniker": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\ConsoleWebAPI\\Repository\\BookRepository.cs",
               "RelativeDocumentMoniker": "ConsoleWebAPI\\Repository\\BookRepository.cs",
               "ToolTip": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\ConsoleWebAPI\\Repository\\BookRepository.cs",
               "RelativeToolTip": "ConsoleWebAPI\\Repository\\BookRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAAaAAAA",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAgwF8AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T14:10:37.894Z",
+              "WhenOpened": "2024-06-27T07:57:41.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\ConsoleWebAPI\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "ConsoleWebAPI\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\ConsoleWebAPI\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "ConsoleWebAPI\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAiwDYAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T07:47:19.302Z",
               "EditorCaption": ""
             }
           ]

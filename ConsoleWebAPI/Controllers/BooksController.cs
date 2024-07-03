@@ -1,4 +1,6 @@
-﻿using ConsoleWebAPI.Repository;
+﻿using Azure;
+using ConsoleWebAPI.Models;
+using ConsoleWebAPI.Repository;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -39,6 +41,42 @@ namespace ConsoleWebAPI.Controllers
         {
             var result = await this._bookRepository.GetAllBooksAsync();
             return Ok(result);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetBookById([FromRoute] int id)
+        {
+            var book = await this._bookRepository.GetBookByIdAsync(id);
+            if(book == null) { return NotFound(); }
+            return Ok(book);
+        }
+
+        [HttpPost("")]
+        public async Task<IActionResult> AddNewBook([FromBody] BooksModel booksModel)
+        {
+            var id = await this._bookRepository.AddBook(booksModel);
+            return CreatedAtAction(nameof(GetBookById), new { id = id }, booksModel);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateBook([FromRoute] int id, [FromBody] BooksModel booksModel)
+        {
+            await this._bookRepository.UpdateBookAsync(id, booksModel);
+            return Ok();
+        }
+
+        [HttpPatch("{id}")]
+        public async Task<IActionResult> UpdateBookPatch([FromRoute] int id, [FromBody] JsonPatchDocument bookModel)
+        {
+            await this._bookRepository.UpdateBookPatchAsync(id, bookModel);
+            return Ok();
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteBook([FromRoute] int id)
+        {
+            await this._bookRepository.DeleteBookAsync(id);
+            return Ok();
         }
     }
 }
