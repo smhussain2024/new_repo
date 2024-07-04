@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { BookServiceService } from '../Services/book-service.service';
 
 @Component({
   selector: 'app-add-book',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AddBookComponent {
 
+  constructor(private service : BookServiceService) { }
+
+  public addBooks(data: any): void {
+    this.service.addBook(data).subscribe(result => {
+      alert(`New book added with id  = ${result}`);
+    });
+  }
 }

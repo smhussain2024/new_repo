@@ -1,1 +1,10 @@
-<p>add-book works!</p>
+<div class="seller-auth">
+    <div class="add-book">
+    <h1>Add Book</h1>
+    <form #addBook="ngForm" class="common-form" (ngSubmit)="addBooks(addBook.value)">
+        <input name="Title" class="form-input" ngModel type="text" placeholder="Enter Book Title">
+        <input name="Description" class="form-input" ngModel type="text" placeholder="Enter Book Description">
+        <button class="form-button">Sign Up</button>
+    </form>
+    </div>
+</div>

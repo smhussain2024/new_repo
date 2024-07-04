@@ -55,7 +55,8 @@ namespace ConsoleWebAPI.Controllers
         public async Task<IActionResult> AddNewBook([FromBody] BooksModel booksModel)
         {
             var id = await this._bookRepository.AddBook(booksModel);
-            return CreatedAtAction(nameof(GetBookById), new { id = id }, booksModel);
+            //return CreatedAtAction(nameof(GetBookById), new { id = id }, booksModel);
+            return CreatedAtAction(nameof(GetBookById), new { id = id, controller = "Books" }, id);
         }
 
         [HttpPut("{id}")]

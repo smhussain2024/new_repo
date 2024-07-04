@@ -7,6 +7,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
 import { AllBooksComponent } from './all-books/all-books.component';
 import { BookServiceService } from './Services/book-service.service';
+import { FormsModule } from '@angular/forms';
 import { AddBookComponent } from './add-book/add-book.component';
 
 @NgModule({
@@ -19,6 +20,7 @@ import { AddBookComponent } from './add-book/add-book.component';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
+    FormsModule,
     HttpClientModule,
   ],
   providers: [

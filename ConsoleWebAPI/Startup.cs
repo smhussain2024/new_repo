@@ -79,8 +79,7 @@ namespace ConsoleWebAPI
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllers();
-               
+                endpoints.MapControllers();           
      
                 /*endpoints.MapGet("/", async  context =>
                 {
