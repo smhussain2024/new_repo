@@ -1,4 +1,5 @@
-﻿using Azure;
+﻿using AutoMapper;
+using Azure;
 using ConsoleWebAPI.Data;
 using ConsoleWebAPI.Models;
 using Microsoft.EntityFrameworkCore;
@@ -8,15 +9,17 @@ namespace ConsoleWebAPI.Repository
     public class BookRepository : IBookRepository
     {
         private readonly BookStoreContext _context;
+        private readonly IMapper _mapper;
 
-        public BookRepository(BookStoreContext context)
+        public BookRepository(BookStoreContext context, IMapper mapper)
         {
             this._context = context;
+            this._mapper = mapper;
         }
 
         public async Task<List<BooksModel>> GetAllBooksAsync()
         {
-            var records = await this._context.Books.Select(x => new BooksModel()
+            /*var records = await this._context.Books.Select(x => new BooksModel()
             {
                 Id = x.Id,
                 Title = x.Title,
@@ -24,12 +27,15 @@ namespace ConsoleWebAPI.Repository
 
             }).ToListAsync();
 
-            return records;
+            return records;*/
+
+            var records = await _context.Books.ToListAsync();
+            return this._mapper.Map<List<BooksModel>>(records);
         }
 
         public async Task<BooksModel> GetBookByIdAsync(int bookId)
         {
-            var records = await this._context.Books.Where(
+            /*var records = await this._context.Books.Where(
                 x => x.Id == bookId).Select(x => new BooksModel()
                 {
                     Id = x.Id,
@@ -38,7 +44,10 @@ namespace ConsoleWebAPI.Repository
 
                 }).FirstOrDefaultAsync();
 
-            return records;
+            return records;*/
+
+            var book = await this._context.Books.FindAsync(bookId);
+            return this._mapper.Map<BooksModel>(book);
         }
 
         public async Task<int> AddBook(BooksModel bookModel)

@@ -132,3 +132,4 @@ C:\Users\SHAbbas.25704\source\repos\ConsoleWebAPI\ConsoleWebAPI\bin\Debug\net8.0
 C:\Users\SHAbbas.25704\source\repos\ConsoleWebAPI\ConsoleWebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\SHAbbas.25704\source\repos\ConsoleWebAPI\ConsoleWebAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\SHAbbas.25704\source\repos\ConsoleWebAPI\ConsoleWebAPI\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\SHAbbas.25704\source\repos\ConsoleWebAPI\ConsoleWebAPI\bin\Debug\net8.0\AutoMapper.dll

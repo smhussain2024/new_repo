@@ -35,6 +35,8 @@ namespace ConsoleWebAPI
             services.AddTransient<IProductRepository, ProductRepository>();
             services.AddTransient<IBookRepository, BookRepository>();
 
+            services.AddAutoMapper(typeof(Startup));
+
             //services.TryAddSingleton<IProductRepository, ProductRepository>();
 
         }
