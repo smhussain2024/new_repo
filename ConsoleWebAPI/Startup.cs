@@ -37,6 +37,14 @@ namespace ConsoleWebAPI
 
             services.AddAutoMapper(typeof(Startup));
 
+            services.AddCors(option =>
+            {
+                option.AddDefaultPolicy(builder =>
+                {
+                    builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+                });
+            });
+
             //services.TryAddSingleton<IProductRepository, ProductRepository>();
 
         }
@@ -66,6 +74,8 @@ namespace ConsoleWebAPI
 
             //Enabling routing in application
             app.UseRouting();
+
+            app.UseCors();
 
             app.UseEndpoints(endpoints =>
             {
