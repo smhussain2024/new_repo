@@ -5,7 +5,7 @@ namespace ConsoleWebAPI.Repository
 {
     public interface IBookRepository
     {
-        Task<int> AddBook(BooksModel bookModel);
+        Task<int> AddBookAsync(BooksModel bookModel);
         Task DeleteBookAsync(int bookId);
         Task<List<BooksModel>> GetAllBooksAsync();
         Task<BooksModel> GetBookByIdAsync(int bookId);

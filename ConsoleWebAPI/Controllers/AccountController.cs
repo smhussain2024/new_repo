@@ -1,4 +1,5 @@
 ﻿using ConsoleWebAPI.Models;
+using ConsoleWebAPI.Repository;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,7 +9,9 @@ namespace ConsoleWebAPI.Controllers
     [ApiController]
     public class AccountController : ControllerBase
     {
-        List<Account> accounts = null;
+        #region Commented Code
+
+        /*List<Account> accounts = null;
         public AccountController()
         {
             this.accounts = new List<Account>()
@@ -77,6 +80,28 @@ namespace ConsoleWebAPI.Controllers
 
             //return Created("~api/account/"+ account.AccountID, account);
             return CreatedAtAction("GetAccountbyId", new { account_id = account.AccountID }, account);
+        }*/
+
+        #endregion
+
+        private readonly IAccountRepository _accountRepository;
+
+        public AccountController(IAccountRepository accountRepository)
+        {
+            this._accountRepository = accountRepository;
+        }
+
+        [HttpPost("signup")]
+        public async Task<ActionResult> SignUp([FromBody] SignUpModel signUpModel)
+        {
+            var result =  await this._accountRepository.SignUp(signUpModel);
+
+            if (result.Succeeded)
+            {
+                return Ok(result.Succeeded);
+            }
+
+            return Unauthorized();
         }
     }
 }

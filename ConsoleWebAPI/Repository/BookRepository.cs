@@ -50,7 +50,7 @@ namespace ConsoleWebAPI.Repository
             return this._mapper.Map<BooksModel>(book);
         }
 
-        public async Task<int> AddBook(BooksModel bookModel)
+        public async Task<int> AddBookAsync(BooksModel bookModel)
         {
             Books book = new Books()
             {

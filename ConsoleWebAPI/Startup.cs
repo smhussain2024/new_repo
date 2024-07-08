@@ -1,7 +1,9 @@
 ﻿
 using ConsoleWebAPI.Data;
 using ConsoleWebAPI.Middlewares;
+using ConsoleWebAPI.Models;
 using ConsoleWebAPI.Repository;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using System.ComponentModel;
@@ -21,6 +23,10 @@ namespace ConsoleWebAPI
         {
             services.AddDbContext<BookStoreContext>(options => 
                 options.UseSqlServer(Configuration.GetConnectionString("BookStoreDB")));
+
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+                .AddEntityFrameworkStores<BookStoreContext>()
+                .AddDefaultTokenProviders();
             
             services.AddControllers().AddNewtonsoftJson();
             services.AddTransient<CustomMiddleware>(); //injecting the custom middleware as service
@@ -34,6 +40,7 @@ namespace ConsoleWebAPI
             //New object everytime is requested, and they are not shared
             services.AddTransient<IProductRepository, ProductRepository>();
             services.AddTransient<IBookRepository, BookRepository>();
+            services.AddTransient<IAccountRepository, AccountRepository>();
 
             services.AddAutoMapper(typeof(Startup));
 
