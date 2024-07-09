@@ -5,6 +5,7 @@ namespace ConsoleWebAPI.Repository
 {
     public interface IAccountRepository
     {
-        Task<IdentityResult> SignUp(SignUpModel signUpModel);
+        Task<string> LoginAsync(SignInModel signInModel);
+        Task<IdentityResult> SignUpAsync(SignUpModel signUpModel);
     }
 }

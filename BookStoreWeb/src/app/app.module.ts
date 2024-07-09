@@ -9,12 +9,15 @@ import { AllBooksComponent } from './all-books/all-books.component';
 import { BookServiceService } from './Services/book-service.service';
 import { FormsModule } from '@angular/forms';
 import { AddBookComponent } from './add-book/add-book.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
+import { AccountServiceService } from './Services/account-service.service';
 
 @NgModule({
   declarations: [
     AppComponent,
     AllBooksComponent,
     AddBookComponent,
+    SignUpComponent,
   ],
   imports: [
     BrowserModule,
@@ -24,7 +27,8 @@ import { AddBookComponent } from './add-book/add-book.component';
     HttpClientModule,
   ],
   providers: [
-    BookServiceService
+    BookServiceService,
+    AccountServiceService
   ],
   bootstrap: [AppComponent]
 })

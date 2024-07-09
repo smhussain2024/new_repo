@@ -94,7 +94,7 @@ namespace ConsoleWebAPI.Controllers
         [HttpPost("signup")]
         public async Task<ActionResult> SignUp([FromBody] SignUpModel signUpModel)
         {
-            var result =  await this._accountRepository.SignUp(signUpModel);
+            var result =  await this._accountRepository.SignUpAsync(signUpModel);
 
             if (result.Succeeded)
             {
@@ -102,6 +102,19 @@ namespace ConsoleWebAPI.Controllers
             }
 
             return Unauthorized();
+        }
+
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody] SignInModel signInModel)
+        {
+            var result = await _accountRepository.LoginAsync(signInModel);
+
+            if (string.IsNullOrEmpty(result))
+            {
+                return Unauthorized();
+            }
+
+            return Ok(result);
         }
     }
 }

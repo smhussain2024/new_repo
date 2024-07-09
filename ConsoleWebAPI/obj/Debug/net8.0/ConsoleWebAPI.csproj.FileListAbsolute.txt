@@ -139,3 +139,4 @@ C:\Users\SHAbbas.25704\source\repos\ConsoleWebAPI\ConsoleWebAPI\obj\Debug\net8.0
 C:\Users\SHAbbas.25704\source\repos\ConsoleWebAPI\ConsoleWebAPI\obj\Debug\net8.0\ConsoleWebAPI.pdb
 C:\Users\SHAbbas.25704\source\repos\ConsoleWebAPI\ConsoleWebAPI\obj\Debug\net8.0\ConsoleWebAPI.genruntimeconfig.cache
 C:\Users\SHAbbas.25704\source\repos\ConsoleWebAPI\ConsoleWebAPI\obj\Debug\net8.0\ref\ConsoleWebAPI.dll
+C:\Users\SHAbbas.25704\source\repos\ConsoleWebAPI\ConsoleWebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
