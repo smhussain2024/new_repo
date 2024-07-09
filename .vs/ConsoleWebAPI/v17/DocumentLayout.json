@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|c:\\users\\shabbas.25704\\source\\repos\\consolewebapi\\consolewebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|solutionrelative:consolewebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|c:\\users\\shabbas.25704\\source\\repos\\consolewebapi\\consolewebapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|solutionrelative:consolewebapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|c:\\users\\shabbas.25704\\source\\repos\\consolewebapi\\consolewebapi\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|solutionrelative:consolewebapi\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|c:\\users\\shabbas.25704\\source\\repos\\consolewebapi\\consolewebapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|solutionrelative:consolewebapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|c:\\users\\shabbas.25704\\source\\repos\\consolewebapi\\consolewebapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|solutionrelative:consolewebapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|c:\\users\\shabbas.25704\\source\\repos\\consolewebapi\\consolewebapi\\models\\signinmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|solutionrelative:consolewebapi\\models\\signinmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|c:\\users\\shabbas.25704\\source\\repos\\consolewebapi\\consolewebapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{972BA702-F882-49DD-BDB9-F359D2DA5CA1}|ConsoleWebAPI\\ConsoleWebAPI.csproj|solutionrelative:consolewebapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,20 +30,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\ConsoleWebAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "ConsoleWebAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\ConsoleWebAPI\\appsettings.json",
-              "RelativeToolTip": "ConsoleWebAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-09T12:29:32.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "SignInModel.cs",
               "DocumentMoniker": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\ConsoleWebAPI\\Models\\SignInModel.cs",
               "RelativeDocumentMoniker": "ConsoleWebAPI\\Models\\SignInModel.cs",
@@ -68,41 +43,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "BooksController.cs",
               "DocumentMoniker": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\ConsoleWebAPI\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "ConsoleWebAPI\\Controllers\\BooksController.cs",
               "ToolTip": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\ConsoleWebAPI\\Controllers\\BooksController.cs",
               "RelativeToolTip": "ConsoleWebAPI\\Controllers\\BooksController.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAIwE0AAAAcAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAgwDEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-09T12:15:07.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\ConsoleWebAPI\\Startup.cs",
-              "RelativeDocumentMoniker": "ConsoleWebAPI\\Startup.cs",
-              "ToolTip": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\ConsoleWebAPI\\Startup.cs",
-              "RelativeToolTip": "ConsoleWebAPI\\Startup.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAwwH0AAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T12:11:56.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\ConsoleWebAPI\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "ConsoleWebAPI\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\ConsoleWebAPI\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "ConsoleWebAPI\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwGAAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T12:08:36.901Z",
               "EditorCaption": ""
             },
             {
@@ -113,7 +62,7 @@
               "RelativeDocumentMoniker": "ConsoleWebAPI\\Repository\\AccountRepository.cs",
               "ToolTip": "C:\\Users\\SHAbbas.25704\\source\\repos\\ConsoleWebAPI\\ConsoleWebAPI\\Repository\\AccountRepository.cs",
               "RelativeToolTip": "ConsoleWebAPI\\Repository\\AccountRepository.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAlwCwAAAANAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAlwDgAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-09T11:41:50.268Z",
               "EditorCaption": ""
