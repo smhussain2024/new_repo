@@ -1,6 +1,7 @@
 ﻿using Azure;
 using ConsoleWebAPI.Models;
 using ConsoleWebAPI.Repository;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -9,7 +10,7 @@ namespace ConsoleWebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class BooksController : ControllerBase
     {
         private readonly IBookRepository _bookRepository;
