@@ -39,12 +39,12 @@ namespace ConsoleWebAPI.Controllers
             return Ok(name);
         }*/
 
-        [HttpGet("")]
+        /*[HttpGet("")]
         public async Task<IActionResult> GetAllBooks()
         {
             var result = await this._bookRepository.GetAllBooksAsync();
             return Ok(result);
-        }
+        }*/
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetBookById([FromRoute] int id)
